@@ -4,7 +4,7 @@
 
 let num1 = prompt("ESERCIZIO 1: Inserisci un numero da comparare");
 let num2 = prompt("ESERCIZIO 1: Inserisci un altro numero da comparare");
-// num2 = 30
+console.log("ESERCIZIO 1:");
 
 if (num1 > num2) {
   console.log(num1 + " è maggiore di " + num2);
@@ -17,6 +17,7 @@ if (num1 > num2) {
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
+console.log("ESERCIZIO 2: ");
 let num3 = prompt("ESERCIZIO 2: Inserisci un numero da comparare con 5");
 if (parseInt(num3) === 5) {
   console.log("your number is equal to 5");
@@ -27,7 +28,7 @@ if (parseInt(num3) === 5) {
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
-
+console.log("ESERCIZIO 3:");
 let num4 = prompt("ESERCIZIO 3: Inserisci un numero da dividere per 5");
 if (num4 % 5 === 0) {
   console.log("divisibile per 5");
@@ -38,6 +39,7 @@ if (num4 % 5 === 0) {
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
+console.log("ESERCIZIO 4:");
 let num5 = prompt("ESERCIZIO 4: Inserisci un numero da comparare");
 let num6 = prompt("ESERCIZIO 4: Inserisci un numero da comparare");
 if (parseInt(num5) + parseInt(num6) === 8) {
@@ -59,7 +61,7 @@ if (
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
-
+console.log("ESERCIZIO 5:");
 let shopping = prompt(
   "ESERCIZIO 5: Inserisci una cifra che rappresenta il costo del carrello"
 );
@@ -79,7 +81,7 @@ if (parseInt(shopping) > 50) {
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
-
+console.log("ESERCIZIO 6:");
 shopping = prompt(
   "ESERCIZIO 6: Inserisci una cifra che rappresenta il costo del carrello SCONTATO DEL 20% AL BLACK FRIDAY"
 );
@@ -100,7 +102,7 @@ if (parseInt(shopping) > 50) {
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
-
+console.log("ESERCIZIO 7:");
 let a = 21;
 let b = 2;
 let c = 103;
@@ -122,16 +124,17 @@ else if (b > c && c > a) {
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-
+console.log("ESERCIZIO 8:");
 const verify1 = 9;
 const verify2 = "Marco";
+console.log(verify1, verify2);
 console.log(typeof verify1);
 console.log(typeof verify2);
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
-
+console.log("ESERCIZIO 9:");
 let evenOrOdd = prompt(
   "ESERCIZIO 9: Inserisci un numero per vedere se è pari o dispari"
 );
@@ -143,6 +146,7 @@ if (parseInt(evenOrOdd) % 2 === 0) {
 
 /* ESERCIZIO 10 
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
+console.log("ESERCIZIO 10:");
 let val = prompt("ESERCIZIO 10: INSERISCI UN NUMERO PER CAPIRE QUANTO VALE");
 if (parseInt(val) > 10) {
   console.log("Maggiore di 10");
